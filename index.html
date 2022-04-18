@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="hover.css">
+    <title>Мяско</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Fira
+            +Sans+Condensed:wght@100&family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Fira+Sans+Condensed:wght@100&family=Noto+Sans&display=swap" rel="stylesheet">
+    <script ENGINE="text/javascript" src= "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="blacking">
+            <div class = 'adress'>
+                <!--Адрес-->
+                    <div class="point">
+                        <a href="https://go.2gis.com/ptoe7">50 лет октября 80 c 10:00 до 22:00</a>
+                    <br>
+                    <br>
+                        <a href="https://2gis.ru/tyumen/inside/1830223003792180/firm/70000001036178951/65.598564%2C57.136008/tab/reviews?writeReview&m=65.598214%2C57.136255%2F17.86%2Fp%2F45%2Fr%2F107.06">Оставить отзыв</a>
+                    </div>
+                    <!--Номер телефона -->
+                    <div class="number">
+                        <a href='#' class ='shoperb'></a>
+                        <a href='tel:89963202020' >8 (996) 320 20-20</a>
+                    </div>
+                    
+            </div>
+            <div class="photo">
+                <img src="img/myaso.png" alt="кунем">
+            </div>
+            <div class="button">
+                <a href="#" class="" id="zakaz_a">Заказать</a>
+            </div>
+        </div>    
+    </div>
+    <!--menu-->
+    <div class="menu" id='menu'>
+        <a href="#" class="menu-btn" style="background-size: 120% auto;" data-filter="all">Все</a>
+        <a href="#" class="menu-btn" data-filter="horovats">шашлык</a>
+        <a href="#" class="menu-btn" data-filter="hachapuri">хачапури</a>
+        <a href="#" class="menu-btn" data-filter="burgers">бургеры</a>
+        <a href="#" class="menu-btn" data-filter="businesslunch" >бизнес ланчи</a>
+        <a href="#" class="menu-btn" data-filter="salad">салаты</a>
+        <a href="#" class="menu-btn" data-filter="drinks">напитки</a>
+    </div>
+    <div class="horovats" data-cat="horovats" id="horovats">
+        <div class="menutext">
+                <p class="article">Хоровац из баранины </p>
+                <p class="menudesc">Подается с кусочком лаваша снизу и луком с зеленью сверху.</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="001"
+                        data-sb-product-name="Хоровац из баранины"
+                        data-sb-product-price="450"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/baranina.jpeg" class = 'buttonprice'>450 ₽</a></div>
+                        
+                    <p class="mass">За 250 гр.</p>
+                    
+                </div>
+            <div class="pricealign" >
+                <div class="product__quantity"></div>               
+            </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/baranina.jpeg">
+    </div>
+
+    <div class="horovats" data-cat="horovats" id="horovats"> 
+        <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/kebabkuritsalavash.jpg">
+        <div class="menutext">
+                <p class="article">Кебаб из курицы в лаваше</p>
+                <p class="menudesc">Сочный куриный люля-кебаб с луком, зеленью и соусом. Завернут в лаваш и поджарен на гриле</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#'
+                        data-sb-id-or-vendor-code="002"
+                        data-sb-product-name="Кебаб из курицы в лаваше"
+                        data-sb-product-price="180"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/kebabkuritsalavash.jpg" class = 'buttonprice'>180 ₽</a></div>
+                    <p class="mass">350 гр.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
+        </div>
+    </div>
+
+    <div class="horovats" data-cat="horovats" id="horovats"> 
+        <div class="menutext">
+            <p class="article">Хоровац из мраморной говядины</p>
+            <p class="menudesc">Подается с кусочком лаваша снизу и луком с зеленью сверху. </p>
+            <div class="pricebackground">
+                <div class="price"><a href = '#' 
+                    data-sb-id-or-vendor-code="003"
+                    data-sb-product-name="Хоровац из мраморной говядины"
+                    data-sb-product-price="450"
+                    data-sb-product-quantity="1"
+                    data-sb-product-img="img/govyadinamramor.jpg" class = 'buttonprice'>450 ₽</a></div>
+                <p class="mass">за 250 гр.</p>
+            </div>
+    </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/govyadinamramor.jpg">
+    </div>
+
+    <div class="horovats" data-cat="horovats" id="horovats"> 
+        <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/kebabsvinina.jpg">
+        <div class="menutext">
+                <p class="article">Кебаб из свинины</p>
+                <p class="menudesc">Подается с кусочком лаваша снизу и луком с зеленью сверху</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="004"
+                        data-sb-product-name="Кебаб из свинины"
+                        data-sb-product-price="180"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/kebabsvinina.jpg" class = 'buttonprice'>180 ₽</a></div>
+                    <p class="mass">150 гр.</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="horovats" data-cat="horovats" id="horovats"> 
+        
+        <div class="menutext">
+                <p class="article">Хоровац из куриных крыльев</p>
+                <p class="menudesc">Куриные крылышки являются частью курицы, которую многие люди любят за нежный вкус и простоту приготовления. Подается с кусочком лаваша снизу и луком с зеленью сверху</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="005"
+                        data-sb-product-name="Хоровац из куриных крыльев"
+                        data-sb-product-price="200"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/kuriniekrilishki.jpg" class = 'buttonprice'>200 ₽</a></div>
+                    <p class="mass">250 гр.</p>
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/kuriniekrilishki.jpg">
+    </div>
+
+    <div class="horovats" data-cat="horovats" id="horovats"> 
+        <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/lulyasvininalavash.jpg">
+        <div class="menutext">
+                <p class="article">Кебаб из свинины в лаваше</p>
+                <p class="menudesc">Свиной люля с луком, зеленью и соусом. завернутый в лаваш и поджаренный на гриле</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="006"
+                        data-sb-product-name="Кебаб из свинины в лаваше"
+                        data-sb-product-price="200"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/lulyasvininalavash.jpg" class = 'buttonprice'>200 ₽</a></div>
+                    <p class="mass">150 гр.</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="horovats" data-cat="horovats" id="horovats"> 
+        
+        <div class="menutext">
+                <p class="article">Кебаб из курицы</p>
+                <p class="menudesc">Подается с кусочком лаваша снизу и луком с зеленью сверху</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="007"
+                        data-sb-product-name="Кебаб из курицы"
+                        data-sb-product-price="160"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/kebabkuritsa.jpg" class = 'buttonprice'>160 ₽</a></div>
+                    <p class="mass">150 гр.</p>
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/kebabsvinina.jpg">
+    </div>
+
+    <div class="horovats" data-cat="horovats" id="horovats"> 
+        <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/svinayakoreyka.jpg">
+        <div class="menutext">
+                <p class="article">Хоровац из свиной корейки</p>
+                <p class="menudesc">Подается с кусочком лаваша снизу и луком с зеленью сверху</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="008"
+                        data-sb-product-name="Хоровац из свиной корейки"
+                        data-sb-product-price="250"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/svinayakoreyka.jpg" class = 'buttonprice'>250 ₽</a></div>
+                    <p class="mass">250 гр.</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="horovats" data-cat="horovats" id="horovats"> 
+        
+        <div class="menutext">
+                <p class="article">Хоровац из свиной шейки</p>
+                <p class="menudesc">Подается с кусочком лаваша снизу и луком с зеленью сверху</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="009"
+                        data-sb-product-name="Хоровац из свиной шейки"
+                        data-sb-product-price="300"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/svinayasheyka.jpg" class = 'buttonprice'>300 ₽</a></div>
+                    <p class="mass">250 гр.</p>
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/svinayasheyka.jpg">
+    </div>
+
+    <div class="horovats" data-cat="horovats" id="horovats"> 
+        <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/sauceshashlik.jpg">
+        <div class="menutext">
+                <p class="article">Шашлычный соус</p>
+                <p class="menudesc">Само уже название Шашлычный - говорит само за себя. Хоть это и не самая значимая, но неотъемлемая часть к мясному блюду.</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="010"
+                        data-sb-product-name="Шашлычный соус"
+                        data-sb-product-price="50"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/sauceshashlik.jpg" class = 'buttonprice'>50 ₽</a></div>
+                    <p class="mass">100 гр.</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="hachapuri" data-cat="hachapuri" id="hachapuri"> 
+        
+        <div class="menutext">
+                <p class="article">Хачапури из слоеного теста</p>
+                <p class="menudesc">Слоеное тесто, сыр сулугуни.</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="011"
+                        data-sb-product-name="Хачапури из слоеного теста"
+                        data-sb-product-price="240"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/hachapuri.jpg" class = 'buttonprice'>240 ₽</a></div>
+                    <p class="mass">400 гр.</p>
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/hachapuri.jpg">
+    </div>
+    
+    <div class="hachapuri" data-cat="hachapuri" id="hachapuri"> 
+        <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/hachapuriadjarski.jpg">
+        <div class="menutext">
+                <p class="article">Хачапури по-аджарски</p>
+                <p class="menudesc">Хачапури-лодочка - одно из самых популярных видов хачапури. Сыр, дрожжевое тесто, яйцо, масло, зелень, соль. Просто сказка!</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="012"
+                        data-sb-product-name="Хачапури по-аджарски"
+                        data-sb-product-price="200"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/hachapuriadjarski.jpg" class = 'buttonprice'>200 ₽</a></div>
+                    <p class="mass">400 гр.</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="hachapuri" data-cat="hachapuri" id="hachapuri"> 
+        
+        <div class="menutext">
+                <p class="article">Хачапури по-грузински</p>
+                <p class="menudesc">Дрожжевое тесто, сыр сулугуни.</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="013"
+                        data-sb-product-name="Хачапури по-грузински"
+                        data-sb-product-price="200"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/hachapurigruzinski.jpg" class = 'buttonprice'>200 ₽</a></div>
+                    <p class="mass">400 гр.</p>
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/hachapurigruzinski.jpg">
+    </div>
+
+    <div class="hachapuri" data-cat="hachapuri" id="hachapuri"> 
+        <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/hachapurimegrelski.jpg">
+        <div class="menutext">
+                <p class="article">Хачапури по-мегрельски</p>
+                <p class="menudesc">Дрожжевое тесто, сыр сулугуни изнутри и снаружи!</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="014"
+                        data-sb-product-name="Хачапури по-мегрельски"
+                        data-sb-product-price="200"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/hachapurimegrelski.jpg" class = 'buttonprice'>200 ₽</a></div>
+                    <p class="mass">400 гр.</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="salad" data-cat="salad" id="salad"> 
+        
+        <div class="menutext">
+                <p class="article">Салат из жареных овощей</p>
+                <p class="menudesc">Салат из жареных помидоров, баклажанов и перцев, приправленных чесноком. Волшебный вкус!</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="015"
+                        data-sb-product-name="Салат из жареных овощей"
+                        data-sb-product-price="200"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/horovatssalad.jpg" class = 'buttonprice'>200 ₽</a></div>
+                    <p class="mass">250 гр.</p>
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/horovatssalad.jpg">
+    </div>
+
+    <div class="salad" data-cat="salad" id="salad"> 
+        <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/shampgrill.jpg">
+        <div class="menutext">
+                <p class="article">Шампиньоны гриль с сыром сулугуни</p>
+                <p class="menudesc">Сочные грибы с сыром пользуются большой популярностью из-за своего нежного вкуса как по отдельности, так и с шашлыком.</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="016"
+                        data-sb-product-name="Шампиньоны гриль"
+                        data-sb-product-price="150"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/shampgrill.jpg" class = 'buttonprice'>150 ₽</a></div>
+                    <p class="mass">100 гр.</p>
+                </div>
+        </div>
+    </div>
+
+    <div class="salad" data-cat="salad" id="salad"> 
+        
+        <div class="menutext">
+                <p class="article">Овощи гриль</p>
+                <p class="menudesc">Волшебный вкус овощей гриль</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="017"
+                        data-sb-product-name="Овощи гриль"
+                        data-sb-product-price="200"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/grillovoshi.jpg" class = 'buttonprice'>200 ₽</a></div>
+                    <p class="mass">250 гр.</p>
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/grillovoshi.jpg">
+    </div>
+    
+<!--footer-->
+    <div class="down_text" border = '3px'>
+    <div class="down_text_blockdisplay">
+        <div class='footer3rd'>
+            <br><br><a href="mailto:r.chom@yandex.ru" >50 лет октября 80 с 10:00 до 22:00</a>
+        </div>
+        
+        <div class = 'logodown'>
+            <a href="index.html"><img src ="img/myaskofooter.png" width="200px" ></a>
+        
+        </div>
+        <div class="footerlinksblock">
+            <br><br><a href="https://www.instagram.com/myasko_tmn/" target="_blank"><img class="" src="img/instagram.png"></a>
+        </div>
+    </div>
+</div>
+
+
+
+<link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+<div class="smart-basket__wrapper"></div>
+
+<script src="smartbasket/js/smartbasket.min.js"></script>
+
+	<script>
+		$(function () {
+			$('.smart-basket__wrapper').smbasket({
+				productElement: 'horovats',
+				buttonAddToBasket: 'buttonprice',
+				productPrice: 'product__price-number',
+				productSize: 'product__size-element',
+				
+				productQuantityWrapper: 'product__quantity',
+				smartBasketMinArea: 'shoperb',
+				countryCode: '+7',
+				smartBasketCurrency: '₽',
+				smartBasketMinIconPath: 'smartbasket/img/shopping-basket-wight.svg',
+
+				agreement: {
+					isRequired: true,
+					isChecked: true,
+					isLink: 'https://artstranger.ru/privacy.html',
+				},
+				nameIsRequired: false,
+			});
+		});
+	</script>
+
+
+</body>
+    <script src="button.js"></script>
+    <script src="filter.js"></script>
+</html>
