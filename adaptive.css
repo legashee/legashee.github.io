@@ -1,7 +1,6 @@
 @media screen and (max-width: 1600px) {
     .container {
-        width: 414px;
-        height: 450px;
+        display:none;
     }
     .photo img {
         width: 80%;
@@ -15,11 +14,41 @@
     .point a{
         font-size: 15px;
     }
+    .number{
+        margin:auto;
+    }
     .number a {
         font-size: 20px;
     }
     .menu{
-        width: 414px;
-        height: auto;
+        display:none;
+    }
+    .menutext {
+        font-size:16px;
+        width:100%;
+    }
+    .photoexample {
+        width:100%;
+        height:100%;
+    }
+    .menudesc{
+        font-size: 24px;
+    }
+    .price{
+        font-size: 28px;
+    }
+    .mass{
+        font-size: 10px;
+        margin:0;
+    }
+    .article{
+        font-size:20px;
+        margin:auto;
+    }
+    .menudesc{
+        font-size:16px;
+    }
+    .buttonprice {
+        font-size:16px;
     }
 }

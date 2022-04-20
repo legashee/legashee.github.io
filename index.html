@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="burger-menu/burger.css">
     <link rel="stylesheet" href="hover.css">
     <title>Мяско</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +21,28 @@
     
 </head>
 <body>
+    <div class="buttonabsolution">
+        <div class="section">
+            <a href="#" class="burger-btn">
+                <span></span>
+            </a>
+        </div>
+        <div class="logo">
+            <img src="img/myaso.png" alt="кунем" width="70%;">
+        </div>
+        <div class="number" width="50px;" height=" 50px;" >
+            <a href='#' class ='shoperb'></a>
+        </div>
+        <div class="burger-menu">
+            <li><a href="#" class="menu-btn" style="background-size: 120% auto;" data-filter="all">Все</a></li>
+            <li><a href="#" class="menu-btn" data-filter="horovats">шашлык</a></li>
+            <li><a href="#" class="menu-btn" data-filter="hachapuri">хачапури</a></li>
+            <li><a href="#" class="menu-btn" data-filter="burgers">бургеры</a></li>
+            <li><a href="#" class="menu-btn" data-filter="businesslunch" >бизнес ланчи</a></li>
+            <li><a href="#" class="menu-btn" data-filter="salad">салаты</a></li>
+            <li><a href="#" class="menu-btn" data-filter="drinks">напитки</a></li>
+        </div>
+    </div>
     <div class="container">
         <div class="blacking">
             <div class = 'adress'>
@@ -110,6 +133,9 @@
                     data-sb-product-img="img/govyadinamramor.jpg" class = 'buttonprice'>450 ₽</a></div>
                 <p class="mass">за 250 гр.</p>
             </div>
+            <div class="pricealign" >
+                <div class="product__quantity"></div>               
+            </div>
     </div>
         <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/govyadinamramor.jpg">
     </div>
@@ -128,6 +154,9 @@
                         data-sb-product-img="img/kebabsvinina.jpg" class = 'buttonprice'>180 ₽</a></div>
                     <p class="mass">150 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
         </div>
     </div>
 
@@ -144,6 +173,9 @@
                         data-sb-product-quantity="1"
                         data-sb-product-img="img/kuriniekrilishki.jpg" class = 'buttonprice'>200 ₽</a></div>
                     <p class="mass">250 гр.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
                 </div>
         </div>
         <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/kuriniekrilishki.jpg">
@@ -163,6 +195,9 @@
                         data-sb-product-img="img/lulyasvininalavash.jpg" class = 'buttonprice'>200 ₽</a></div>
                     <p class="mass">150 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
         </div>
     </div>
 
@@ -179,6 +214,9 @@
                         data-sb-product-quantity="1"
                         data-sb-product-img="img/kebabkuritsa.jpg" class = 'buttonprice'>160 ₽</a></div>
                     <p class="mass">150 гр.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
                 </div>
         </div>
         <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/kebabsvinina.jpg">
@@ -198,6 +236,9 @@
                         data-sb-product-img="img/svinayakoreyka.jpg" class = 'buttonprice'>250 ₽</a></div>
                     <p class="mass">250 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
         </div>
     </div>
 
@@ -214,6 +255,9 @@
                         data-sb-product-quantity="1"
                         data-sb-product-img="img/svinayasheyka.jpg" class = 'buttonprice'>300 ₽</a></div>
                     <p class="mass">250 гр.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
                 </div>
         </div>
         <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/svinayasheyka.jpg">
@@ -233,10 +277,13 @@
                         data-sb-product-img="img/sauceshashlik.jpg" class = 'buttonprice'>50 ₽</a></div>
                     <p class="mass">100 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
         </div>
     </div>
 
-    <div class="hachapuri" data-cat="hachapuri" id="hachapuri"> 
+    <div class="horovats" data-cat="hachapuri" id="hachapuri"> 
         
         <div class="menutext">
                 <p class="article">Хачапури из слоеного теста</p>
@@ -250,11 +297,14 @@
                         data-sb-product-img="img/hachapuri.jpg" class = 'buttonprice'>240 ₽</a></div>
                     <p class="mass">400 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
         </div>
         <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/hachapuri.jpg">
     </div>
     
-    <div class="hachapuri" data-cat="hachapuri" id="hachapuri"> 
+    <div class="horovats" data-cat="hachapuri" id="hachapuri"> 
         <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/hachapuriadjarski.jpg">
         <div class="menutext">
                 <p class="article">Хачапури по-аджарски</p>
@@ -268,10 +318,13 @@
                         data-sb-product-img="img/hachapuriadjarski.jpg" class = 'buttonprice'>200 ₽</a></div>
                     <p class="mass">400 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
         </div>
     </div>
 
-    <div class="hachapuri" data-cat="hachapuri" id="hachapuri"> 
+    <div class="horovats" data-cat="hachapuri" id="hachapuri"> 
         
         <div class="menutext">
                 <p class="article">Хачапури по-грузински</p>
@@ -285,11 +338,14 @@
                         data-sb-product-img="img/hachapurigruzinski.jpg" class = 'buttonprice'>200 ₽</a></div>
                     <p class="mass">400 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
         </div>
         <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/hachapurigruzinski.jpg">
     </div>
 
-    <div class="hachapuri" data-cat="hachapuri" id="hachapuri"> 
+    <div class="horovats" data-cat="hachapuri" id="hachapuri"> 
         <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/hachapurimegrelski.jpg">
         <div class="menutext">
                 <p class="article">Хачапури по-мегрельски</p>
@@ -303,10 +359,154 @@
                         data-sb-product-img="img/hachapurimegrelski.jpg" class = 'buttonprice'>200 ₽</a></div>
                     <p class="mass">400 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
         </div>
     </div>
 
-    <div class="salad" data-cat="salad" id="salad"> 
+    <!--Бизнес  Ланч-->
+
+    <div class="horovats" data-cat="businesslunch" id="businesslunch"> 
+        
+        <div class="menutext">
+                <p class="article">Бизнес ланч "Легкий"</p>
+                <p class="menudesc">Куринные крылья, мякоть, люля куринный, салат овощной, чай, соус, лук, лаваш </p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="023"
+                        data-sb-product-name="Бизнес ланч 'Легкий'"
+                        data-sb-product-price="279"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/biznes1.jpg" class = 'buttonprice'>279 ₽</a></div>
+                    <p class="mass"> ~~~ гр.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/biznes1.jpg">
+    </div>
+
+
+    <div class="horovats" data-cat="businesslunch" id="businesslunch"> 
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/biznes2.jpg">
+        <div class="menutext">
+                <p class="article">Бизнес ланч "Мясной"</p>
+                <p class="menudesc">Свинная шея, карбонад, хачапури, люля свиной, чай, соус, лук, лаваш </p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="024"
+                        data-sb-product-name="Бизнес луанч 'Мяскной'"
+                        data-sb-product-price="329"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/biznes2.jpg" class = 'buttonprice'>329 ₽</a></div>
+                    <p class="mass">~~~ гр.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
+        </div>
+        
+    </div>
+
+    <div class="horovats" data-cat="businesslunch" id="businesslunch"> 
+        
+        <div class="menutext">
+                <p class="article">Бизнес ланч "Царский"</p>
+                <p class="menudesc">Перепелка, Шампиньоны, картофель, томаты, чай, соус, лук, лаваш </p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="025"
+                        data-sb-product-name="Бизнес луанч 'Царский'"
+                        data-sb-product-price="379"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/biznes3.jpg" class = 'buttonprice'>379 ₽</a></div>
+                    <p class="mass">~~~ гр.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/biznes3.jpg">
+    </div>
+
+
+
+    <!--Конец бизнес ланчам-->
+    <!--Бургеры-->
+    <div class="horovats" data-cat="burgers" id="burgers"> 
+        
+        <div class="menutext">
+                <p class="article">Бургер из мраморной говядины </p>
+                <p class="menudesc">добавки:
+                    <br>Котлета 70₽
+                    <br>Халапеньо 20₽
+                    <br>Бекон 40₽
+                    <br>шампиьоны 20₽
+                    <br>жареный лук 10₽
+                </p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="026"
+                        data-sb-product-name="Бургер из мраморной говядины "
+                        data-sb-product-price="250"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/.jpg" class = 'buttonprice'>200 ₽</a></div>
+                    <p class="mass">300 гр.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/biznes3.jpg">
+    </div>
+    <!--пиздец Бургерам-->
+    <!--
+        хули зыришь, отдохнуть пришел? пошел нахуй!(Why are you looking go fuck yourself.)
+⠄⠄⠄⠄⠄⠄⠄⠄⣠⣴⡶⠓⠈⠉⠉⠙⠛⠶⣤⡀
+⠄⠄⠄⠄⠄⠄⢠⣾⠿⠁⠄⠄⠄⠄⠄⠄⠄⠄⠈⠿⣶⡀
+⠄⠄⠄⠄⠄⢠⣿⣧⣄⠠⠖⠒⢶⣄⠄⠄⠄⠄⠄⠄⠘⢿⣇
+⠄⠄⠄⠄⢀⣿⠋⢁⠄⠄⠄⠄⠈⣿⡄⠄⠄⠄⠄⠄⠄⠈⣿⡄
+⠄⠄⠄⠄⢸⣿⠄⣸⡄⠄⠄⠄⠄⣿⡇⠄⠄⠄⠄⠄⠄⠄⢹⣷
+⠄⠄⠄⠄⠸⣿⠄⢹⣧⠄⠄⠄⠄⣿⡇⠄⠄⠄⠄⠄⠄⠄⠘⣿⡀
+⠄⠄⠄⠄⠄⣿⡆⢸⣿⠄⠄⠄⠄⢻⣷⠄⠄⠄⠄⠄⠄⠄⠄⣿⣇
+⠄⠄⠄⠄⠄⣿⡇⠄⢿⣧⠄⠄⠄⢰⣿⠄⠄⠄⠄⠄⠄⠄⠄⠸⣿
+⠄⠄⠄⠄⠄⣿⡇⠄⠄⠹⣷⡀⠄⣾⠇⠄⠄⠄⠄⠄⠄⠄⠄⠄⢿⣇
+⠄⠄⠄⠄⠄⣿⡇⠄⠄⠄⠉⠻⠦⢿⡀⠄⠄⠄⠄⢀⣀⣀⠄⠄⠈⣿⡄
+⠄⠄⠄⠄⠄⠸⡇⠄⠄⠄⠄⠄⠄⠈⠓⠄⠄⠄⠄⠄⠄⠈⠙⢷⡄⠸⣿
+⠄⠄⠄⠄⠄⠄⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢻⡄⣿⡆
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⡇⢹⡇
+⠄⠄⠄⠄⠄⢀⡤⠄⠄⣠⡞⠄⠄⠄⠄⠄⣿⠄⠄⠄⠄⠄⠄⠄⣿⠁⢸⡇
+⠄⠄⠄⠄⣴⠏⠄⠄⣰⠟⠄⠄⠄⠄⠄⢀⡿⠄⠄⠄⠄⠄⠄⢰⡿⠄⣼⠃
+⠄⠄⠄⠄⣿⠄⠄⢠⡿⠄⠄⠄⠄⠄⠄⢸⡇⠄⠄⠄⠄⠄⠄⣿⠃⠄⡿
+⠄⠄⠄⠄⣿⣀⣠⣾⡇⠄⠄⠄⠄⠂⠄⣾⠃⠄⠄⠄⠄⠄⣼⡟⠄⠺⠁
+⠄⠄⠄⠄⠈⢩⠉⠈⠻⣦⣤⣤⠞⠁⢰⣿⠄⠄⠄⠄⠄⢰⣿⠁
+⠄⠄⠄⠄⠄⣾⠄⠄⠄⠄⠄⠄⠄⠄⣿⠃⠄⠄⠄⠄⢀⣿⠃
+⠄⠄⠄⠄⠄⣿⡀⠄⠄⠄⠄⠄⠄⠄⣿⠄⠄⠄⠄⠄⣾⡏
+⠄⠄⠄⠄⣴⣿⡇⠄⠄⠄⠄⠄⠄⣸⣿⠄⠄⠄⠄⣼⡿
+⠄⠄⠄⢀⡿⢸⣿⠄⠄⠄⠄⠄⣰⡿⠁⠄⠄⠄⢰⣿⡇
+⠄⠄⠄⣸⡇⠈⣿⣆⠄⠄⠄⢠⣿⠁⠄⠄⠄⢀⣿⠋⣧
+⠄⠄⠄⣿⠃⠄⢹⣿⠄⠄⠄⣿⡏⠄⠄⠄⠄⣸⡿⠄⠘⣷⣄
+⠄⠄⢠⣿⠄⠄⠄⣿⣆⠄⢀⣿⠄⠄⠄⠄⢀⣿⠃⠄⠄⠄⠙⢷⣦⡀
+⠄⠄⢸⣿⠄⠄⣼⡏⣿⠄⢸⡿⠄⠄⠄⢀⣾⠏⠄⠄⠄⠄⠄⠄⠘⢿⣆
+⠄⠄⢸⣿⠄⣸⡿⠄⠘⣧⣿⠃⠄⠄⢠⣿⠏⠄⠄⠄⠄⠄⠄⠄⠄⠈⢿⣦
+⠄⠄⣸⡟⠄⣿⡇⠄⠄⣸⡟⠄⠄⣠⣿⠋⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⡆
+⠄⢠⣿⠁⠄⠛⠛⢶⢠⡿⠄⠄⣰⡿⢉⡇⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⣿
+⠄⣿⠃⠄⠄⠄⣠⠴⠛⠄⠄⣼⠻⣆⣼⠃⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸⣿
+⠄⢿⡀⠄⠄⠄⠄⠄⠄⢀⣾⠃⢀⣾⠋⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣼⡟
+⠄⠄⠛⠶⠄⠄⢠⡤⠴⠚⣷⢀⣾⠋⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣰⡿
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⠋⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣰⡿⠁
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⢀⣿⠏⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣴⡟
+⠄⠄⠄⠄⠄⠄⠄⠄⠄⣾⡟⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣼⡟
+⠄⠄⠄⠄⠄⠄⠄⠄⢰⡿⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣼⣿⡇
+⠄⠄⠄⠄⠄⠄⠄⠄⣿⠃⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣼⠋⢸⡇
+⠄⠄⠄⠄⠄⠄⠄⢰⡏⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢰⠏⠄⠘⡇
+⠄⠄⠄⠄⠄⠄⠄⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⡿⠄⠄⠄⠇
+    -->
+    
+
+    <div class="horovats" data-cat="salad" id="salad"> 
         
         <div class="menutext">
                 <p class="article">Салат из жареных овощей</p>
@@ -320,12 +520,36 @@
                         data-sb-product-img="img/horovatssalad.jpg" class = 'buttonprice'>200 ₽</a></div>
                     <p class="mass">250 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
         </div>
         <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/horovatssalad.jpg">
     </div>
 
-    <div class="salad" data-cat="salad" id="salad"> 
-        <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/shampgrill.jpg">
+    <div class="horovats" data-cat="salad" id="salad"> 
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/letosalat.jpg">
+        <div class="menutext">
+                <p class="article">Летний Салат</p>
+                <p class="menudesc">Хрустящие огурчики с нежными помидорчиками посыпанные свежим укропсчиком и политые оливковым маслом дают идеальный баланс вкуса!</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="018"
+                        data-sb-product-name="Летний Салат"
+                        data-sb-product-price="85"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/letosalat.jpg" class = 'buttonprice'>85 ₽</a></div>
+                    <p class="mass">50 гр.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
+        </div>
+        
+    </div>
+
+    <div class="horovats" data-cat="salad" id="salad"> 
+        
         <div class="menutext">
                 <p class="article">Шампиньоны гриль с сыром сулугуни</p>
                 <p class="menudesc">Сочные грибы с сыром пользуются большой популярностью из-за своего нежного вкуса как по отдельности, так и с шашлыком.</p>
@@ -338,11 +562,16 @@
                         data-sb-product-img="img/shampgrill.jpg" class = 'buttonprice'>150 ₽</a></div>
                     <p class="mass">100 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
+                
         </div>
+        <img class="photoexample" style="box-shadow: -10px -10px #831513;" src="img/shampgrill.jpg">
     </div>
 
-    <div class="salad" data-cat="salad" id="salad"> 
-        
+    <div class="horovats" data-cat="salad" id="salad"> 
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/grillovoshi.jpg">
         <div class="menutext">
                 <p class="article">Овощи гриль</p>
                 <p class="menudesc">Волшебный вкус овощей гриль</p>
@@ -355,10 +584,148 @@
                         data-sb-product-img="img/grillovoshi.jpg" class = 'buttonprice'>200 ₽</a></div>
                     <p class="mass">250 гр.</p>
                 </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
         </div>
-        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/grillovoshi.jpg">
+        
     </div>
-    
+
+
+    <div class="horovats" data-cat="drinks" id="drinks"> 
+        <div class="menutext">
+                <p class="article">Морс </p>
+                <p class="menudesc">Холодный морс приготовленный от души и всего сердца поможет вам в жаркую погоду</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="019"
+                        data-sb-product-name="Морс"
+                        data-sb-product-price="55"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/mors.jpg" class = 'buttonprice'>55 ₽</a></div>
+                    <p class="mass">0.5 мл.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/mors.jpg">
+    </div>
+
+    <div class="horovats" data-cat="drinks" id="drinks"> 
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/limonadbanka.jpg">
+        <div class="menutext">
+                <p class="article">Лимонад банка </p>
+                <p class="menudesc">Холодный морс приготовленный от души и всего сердца поможет вам в жаркую погоду</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="019"
+                        data-sb-product-name="Морс"
+                        data-sb-product-price="55"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/limonadbanka.jpg" class = 'buttonprice'>55 ₽</a></div>
+                    <p class="mass">0.5 мл.</p>
+                </div>
+                <div class="pricealign" >
+                    <div class="product__quantity"></div>               
+                </div>
+        </div>
+        
+    </div>
+
+    <div class="horovats" data-cat="drinks" id="drinks">
+        <div class="menutext">
+                <p class="article">Кофе Латте </p>
+                <p class="menudesc">Подается с кусочком лаваша снизу и луком с зеленью сверху.</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="020"
+                        data-sb-product-name="Кофе Латте "
+                        data-sb-product-price="75"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/latte.jpg" class = 'buttonprice'>79 ₽</a></div>
+                        
+                    <p class="mass">0.5 мл.</p>
+                    
+                </div>
+            <div class="pricealign" >
+                <div class="product__quantity"></div>               
+            </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/latte.jpg">
+    </div>
+
+
+    <div class="horovats" data-cat="drinks" id="drinks">
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/americano.jpg">
+        <div class="menutext">
+                <p class="article">Кофе экспрессо </p>
+                <p class="menudesc">Особый способ приготовления кофе, который появился в середине XX века. Его родина — Италия.</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="021"
+                        data-sb-product-name="Кофе Экспрессо"
+                        data-sb-product-price="45"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/americano.jpg" class = 'buttonprice'>45 ₽</a></div>
+                        
+                    <p class="mass">0.5 мл.</p>
+                    
+                </div>
+            <div class="pricealign" >
+                <div class="product__quantity"></div>               
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="horovats" data-cat="drinks" id="drinks">
+        
+        <div class="menutext">
+                <p class="article">Кофе Американо </p>
+                <p class="menudesc">Способ приготовления кофе, заключающийся в соединении определённого количества горячей воды и эспрессо.</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="022"
+                        data-sb-product-name="Кофе Американо"
+                        data-sb-product-price="59"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/expresso.jpg" class = 'buttonprice'>55 ₽</a></div>
+                        
+                    <p class="mass">0.5 мл.</p>
+                    
+                </div>
+            <div class="pricealign" >
+                <div class="product__quantity"></div>               
+            </div>
+        </div>
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/expresso.jpg">
+    </div>
+
+    <div class="horovats" data-cat="drinks" id="drinks">
+        <img class="photoexample" style="box-shadow: 10px -10px #831513;" src="img/kapuchino.jpg">
+        <div class="menutext">
+                <p class="article">Кофе Капучино </p>
+                <p class="menudesc">Известный кофейный напиток на основе эспрессо. В нём сохраняется баланс: чувствуется вкус эспрессо, но он не преобладает над вкусом молока.</p>
+                <div class="pricebackground">
+                    <div class="price"><a href = '#' 
+                        data-sb-id-or-vendor-code="023"
+                        data-sb-product-name="Кофе Экспрессо"
+                        data-sb-product-price="49"
+                        data-sb-product-quantity="1"
+                        data-sb-product-img="img/kapuchino.jpg" class = 'buttonprice'>69 ₽</a></div>
+                        
+                    <p class="mass">0.5 мл.</p>
+                    
+                </div>
+            <div class="pricealign" >
+                <div class="product__quantity"></div>               
+            </div>
+        </div>
+       
+    </div>
+
+
 <!--footer-->
     <div class="down_text" border = '3px'>
     <div class="down_text_blockdisplay">
@@ -410,6 +777,7 @@
 
 
 </body>
+    <script src="burger-menu/burger.js"></script>
     <script src="button.js"></script>
     <script src="filter.js"></script>
 </html>

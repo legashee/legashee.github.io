@@ -59,6 +59,7 @@ body{
 }
 .number{
     margin-top: 35px;
+    z-index:109;
 }
 
 .number a{
@@ -102,9 +103,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .photo img{
     margin-top: 11%;
     width: 650px;
