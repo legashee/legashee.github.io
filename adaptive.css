@@ -1,4 +1,4 @@
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1500px) {
     .container {
         display:none;
     }
@@ -25,11 +25,13 @@
     }
     .menutext {
         font-size:16px;
-        width:100%;
+        width:50%;
     }
     .photoexample {
-        width:100%;
-        height:100%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row-reverse;
     }
     .menudesc{
         font-size: 24px;
@@ -42,13 +44,120 @@
         margin:0;
     }
     .article{
-        font-size:20px;
+        font-size:28px;
         margin:auto;
+        height:45px;
     }
     .menudesc{
         font-size:16px;
     }
     .buttonprice {
         font-size:16px;
+    }
+
+    .horovats {
+        display: flex;
+        margin: 0;
+        margin-top:20px;
+    }
+    .buttonprice {
+        font-size:20px;
+    }
+    .horovats img{
+        width:80%
+    }
+
+    .logo {
+        width:30%;
+    }
+    .numberhide {
+        display:none
+    }
+    .linkabsol {
+        margin: 0 auto;
+        margin-right:-15%;
+        margin-top:4px;
+    }
+    .container_menu {
+        margin-top:80px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .logo img {
+        width: 80%;
+    }
+    .linkabsol{
+        margin-right:-22%;
+    }
+    
+}
+@media screen and (max-width: 1300px) {
+    .menu_element {
+        width:350px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .linkabsol{
+        margin-right:-25%;
+    }
+    
+}
+@media screen and (max-width: 1100px) {
+    .linkabsol{
+        margin-right:-28%;
+    }
+    
+    .menu_element {
+        width:300px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .linkabsol{
+        margin-right:-31%;
+    }
+    .menu_element {
+        width:260px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .linkabsol{
+        margin-right:-35%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .menu_element {
+        width:230px;
+    }
+    .product-list h3{
+        font-size:16px;
+    }
+    .linkabsol{
+        margin-right:-40%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .linkabsol{
+        margin-right:-45%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .linkabsol{
+        margin-right:-50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .linkabsol{
+        margin-right:-55%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .linkabsol{
+        margin-right:-75%;
+    }
+}
+@media screen and (max-width: 370px) {
+    .linkabsol{
+        margin-right:-85%;
     }
 }

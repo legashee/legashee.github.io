@@ -2,10 +2,10 @@
     position: absolute; 
     z-index:100;
     width:100%;
-    margin-top:-20px;
     background-color: #0b0808;
     display:none;
     height:70px;
+    justify-content: space-between;
 }
 .burger-menu {
     display: none;
@@ -66,6 +66,11 @@
 .section {
     width: 163.35px;
     margin-left: 20px;
+    align-items: center
+}
+.sectionhide {
+    width: 163.35px;
+
 }
 
 .burger-btn {
@@ -116,11 +121,17 @@
     transform: rotate(-45deg);
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1500px) {
     .burger-btn {
         display: flex;
         width: 60px;
         height: 60px;
+        margin: 0;
+        margin-top:5px;
+    }
+    .section {
+        margin:0;
+        margin-left:10px;
     }
     .buttonabsolution{
         display:flex;

@@ -1069,10 +1069,11 @@
     background-color: transparent;
     cursor: pointer;
     outline: none;
-    width:50px;
+    width:60px;
+    margin-right:20px;
 }
 .smart-basket__min img{
-    width:30px;
+    width:60px;
 }
 
 .smart-basket__min span{
