@@ -57,6 +57,13 @@
 }
 
 @font-face {
+    font-family: 'FreeSerifArm'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/free-serif-2.ttf') format('ttf'),
+    url('fonts/free-serif-2.woff') format('woff'), /* Современные браузеры */
+        url('fonts/free-serif-2.woff2') format('woff2');
+}
+
+@font-face {
     font-family: 'Aida_Regular'; /* Название шрифта, которое вы будете использовать */
     src: url('fonts/shk-aida-reg.woff') format('woff'); /* Современные браузеры */
     font-weight: normal; /* Насыщенность шрифта */
@@ -155,7 +162,7 @@ body {
 }
 
 .headtitle {
-    font-family: aidaital;
+    font-family: FreeSerifArm;
     font-size: 53px;
     text-align: center;
     line-height: 90%;
