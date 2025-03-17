@@ -49,7 +49,7 @@
 }
 
 @font-face {
-    font-family: 'Aida_Italic'; /* Название шрифта, которое вы будете использовать */
+    font-family: 'aidaital'; /* Название шрифта, которое вы будете использовать */
     src: url('fonts/shk-aida-ita.woff') format('woff'),
     url('fonts/shk-aida-ita.ttf') format('ttf'), /* Современные браузеры */
         url('fonts/AnyConv.com__shk-aida-ita.woff2') format('woff2');
