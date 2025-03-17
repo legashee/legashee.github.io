@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'ArianGrqi'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/Arian_Grqi_U.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'BerenisADF'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/BerenisADFProRegular.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'FrenchKiss'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/FRENCHKISSSCRIPT.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Brygada1918'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/Brygada1918-Regular.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Brygada1918'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/Brygada1918-Medium.woff') format('woff'); /* Современные браузеры */
+    font-weight: medium; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Brygada1918'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/Brygada1918-Italic.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: italic; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Brygada1918_im'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/Brygada1918-MediumItalic.woff') format('woff'); /* Современные браузеры */
+    font-weight: medium; /* Насыщенность шрифта */
+    font-style: italic; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Aida_Italic'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/shk-aida-ita.woff') format('woff'); /* Современные браузеры */
+    font-weight: medium; /* Насыщенность шрифта */
+    font-style: italic; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Aida_Regular'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/shk-aida-reg.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+html {
+    scroll-behavior: smooth; /* Плавный скролл для всей страницы */
+}
+
+body {
+    max-width: 100%;
+    height: auto; /* Сохраняет пропорции */
+    margin: 0 auto;
+}
+
+.firstscreen video {
+    border-radius: 0px 0px 25px 25px;
+    z-index:1;
+}
+
+.firstscreen {
+    position: relative; /* Относительное позиционирование для контейнера */
+    width: 100%; /* Ширина контейнера */
+    overflow: hidden; /* Скрыть всё, что выходит за пределы контейнера */
+}
+
+.text-overlay {
+    position: absolute; /* Абсолютное позиционирование для текста */
+    top: 50%; /* Позиционирование по вертикали */
+    left: 50%; /* Позиционирование по горизонтали */
+    transform: translate(-50%, -50%); /* Центрирование текста */
+    text-align: center; /* Выравнивание текста по центру */
+    color: white; /* Цвет текста */
+    z-index: 1; /* Убедитесь, что текст выше видео */
+    width: 100%; /* Ширина текстового блока (можно настроить) */
+    max-width: 800px; /* Максимальная ширина текстового блока */
+    font-family: ArianGrqi;
+    letter-spacing: -10%;
+}
+
+.text-overlay h1{ 
+    font-size: 64px;
+    margin: 0 auto;
+}
+
+.svadebnoe {
+    position:absolute;
+    top:31px;
+    text-align: center;
+    left:50%;
+    transform: translate(-50%, -50%); /* Центрирование текста */
+    width:80%;
+    color: white;
+    opacity: 50%;
+    font-size: 11px;
+}
+
+.provedite {
+    position:absolute;
+    top:95%;
+    text-align: center;
+    left:50%;
+    transform: translate(-50%, -50%); /* Центрирование текста */
+    width:80%;
+    color: white;
+    font-size: 11px;
+}
+
+.provedite p {
+    margin:4px auto;
+}
+
+.provedite a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.provedite img {
+    animation: bounce 3s infinite; /* Анимация */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Начальное и конечное положение */
+    }
+    50% {
+        transform: translateY(5px); /* Смещение вниз */
+    }
+}
+
+.and {
+    font-family: BerenisADF;
+    padding-top: 12px;
+    margin-bottom: -10px;
+}
+
+.headtitle {
+    font-family: FrenchKiss;
+    font-size: 53px;
+    text-align: center;
+    line-height: 90%;
+    margin-bottom: 20px;
+}
+
+.maintext {
+    font-family: Brygada1918;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: -3%;
+    max-width: 340px;
+    margin: auto;
+}
+
+.date {
+    margin-top: 30px;
+    left:50%;
+}
+
+.datetxt{
+    font-family: Brygada1918;
+    font-style: italic;
+    font-size:13px;
+}
+
+.calendar {
+    text-align:center;
+    left:50%;
+    margin-bottom: 40px;
+}
+
+#tab_august {
+    text-align: center;
+    width: 240px;
+    font-family: Brygada1918;
+    font-size: 13px;
+    border: 1.5px solid transparent;
+}
+
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+}
+th, td {
+    padding: 5px;
+    padding-bottom: 8px;
+    width: 10px;
+    font-style: normal;
+}
+
+th {
+    opacity: 50%;
+}
+
+.styletab {
+    background: linear-gradient(transparent, 60%,#1f1f1f);
+    width:242.2px;
+    height:172px;
+    margin: 0 auto;
+}
+
+#countdown {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#countdown div {
+    display: inline-block;
+    padding: 8px;
+    width: 72px;
+}
+
+#countdown .label {
+    font-size: 14px;
+    color: #555;
+    margin-top: 0px;
+    font-family: Brygada1918;
+    width:100%;
+    padding: 0;
+    font-style: italic;
+}
+
+#countdown span{
+    font-family: Brygada1918;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+.buttons {
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:120px;
+}
+
+.buttons button {
+    width:340px;
+    margin-top:14px;
+    height:48px;
+    font-family: Brygada1918;
+    font-weight: medium;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttonpad{
+    width:340px;
+    margin: 0 auto;
+    margin-top:14px;
+    height:50px;
+    background: linear-gradient(#D5D5D5, #1f1f1f);
+    border-radius: 6px;
+}
+
+#map {
+    background: #fff;
+    width:338px;
+    margin-top:1px;
+}
+
+#form {
+    background-color: #1f1f1f;
+    background: linear-gradient(#363636,#1f1f1f);
+    color:#fff;
+}
+
+.footer p {
+    font-family: Brygada1918;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: -3%;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-bottom: 40px;
+}
+
+.footer a {
+    text-decoration: none;
+    color:#1f1f1f;
+}
+
+.buttons button{
+    cursor:pointer;
+}
+
+.buttonpad a{
+    text-decoration: none;
+    color: #1f1f1f;
+}

@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'ArianGrqi'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/Arian_Grqi_U.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'BerenisADF'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/BerenisADFProRegular.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'FrenchKiss'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/FRENCHKISSSCRIPT.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Brygada1918'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/Brygada1918-Regular.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Brygada1918'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/Brygada1918-Medium.woff') format('woff'); /* Современные браузеры */
+    font-weight: medium; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Brygada1918'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/Brygada1918-Italic.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: italic; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Brygada1918_im'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/Brygada1918-MediumItalic.woff') format('woff'); /* Современные браузеры */
+    font-weight: medium; /* Насыщенность шрифта */
+    font-style: italic; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Aida_Italic'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/shk-aida-ita.woff') format('woff'); /* Современные браузеры */
+    font-weight: medium; /* Насыщенность шрифта */
+    font-style: italic; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+
+@font-face {
+    font-family: 'Aida_Regular'; /* Название шрифта, которое вы будете использовать */
+    src: url('fonts/shk-aida-reg.woff') format('woff'); /* Современные браузеры */
+    font-weight: normal; /* Насыщенность шрифта */
+    font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
+}
+/* Общие стили для страницы */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота на весь экран */
+    background-color: #131313; /* Цвет фона */
+    color: #ffffff; /* Цвет текста */
+    font-family: Arial, sans-serif;
+    background: url(/matani.mp4);
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 2em;
+}
+
+/* Контейнер для меню */
+.language-menu {
+    display: block;
+    gap: 20px; /* Расстояние между кнопками */
+    
+}
+
+/* Стили для кнопок */
+.language-button-r {
+    background: none;
+    border: none; /* Убираем обводку */
+    color: #ffffff; /* Цвет текста */
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    font-family: Brygada1918;
+    
+}
+
+.language-button-a {
+    background: none;
+    border: none; /* Убираем обводку */
+    color: #ffffff; /* Цвет текста */
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    font-family: Aida_Regular;
+}
+
+/* Эффект при наведении на кнопку */
+.language-button-r:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Легкий эффект при наведении */
+    border-radius: 5px;
+}
+
+/* Эффект при наведении на кнопку */
+.language-button-a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Легкий эффект при наведении */
+    border-radius: 5px;
+}
+
