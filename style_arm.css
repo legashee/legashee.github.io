@@ -14,7 +14,8 @@
 
 @font-face {
     font-family: 'FrenchKiss'; /* Название шрифта, которое вы будете использовать */
-    src: url('fonts/FRENCHKISSSCRIPT.woff') format('woff'); /* Современные браузеры */
+    src: url('fonts/FRENCHKISSSCRIPT.woff') format('woff'),/* Современные браузеры */
+        url('fonts/FRENCHKISSSCRIPT.woff2') format('woff2'); 
     font-weight: normal; /* Насыщенность шрифта */
     font-style: normal; /* Стиль шрифта (обычный, курсив и т.д.) */
 }
