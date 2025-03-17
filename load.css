@@ -50,7 +50,8 @@
 
 @font-face {
     font-family: 'Aida_Italic'; /* Название шрифта, которое вы будете использовать */
-    src: url('fonts/shk-aida-ita.woff') format('woff'); /* Современные браузеры */
+    src: url('fonts/shk-aida-ita.woff') format('woff'), /* Современные браузеры */
+        url('fonts/AnyConv.com__shk-aida-ita.woff2') format('woff2');
     font-weight: medium; /* Насыщенность шрифта */
     font-style: italic; /* Стиль шрифта (обычный, курсив и т.д.) */
 }
